@@ -1,0 +1,51 @@
+html {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    box-sizing: border-box;
+    color: hsl(0,0%,100%);
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+.main-card {
+background-color: hsl(0, 0%, 81%);
+}
+img  {
+    border-radius: 40px;
+    margin-right: 20px;
+    border: 1px solid white;
+}
+.user-data {
+    display:flex;
+}
+.user-data p {
+ opacity:0.5;
+ margin:0px;
+}
+.testimonial {
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10%;
+}
+.header {
+font-weight: 600;
+font-size: 1.8rem;
+}
+.content {
+    opacity:0.7;
+}
+.testimonial-1 {
+    background-color: hsl(263, 55%, 52%);
+}
+.testimonial-2 {
+
+background-color:hsl(217, 19%, 35%) ;
+}
+.testimonial-3, .testimonial-5{
+    background-color: hsl(0,0%,100%);
+    color:hsl(219, 29%, 14%);
+}
+.testimonial-4{
+    background-color: hsl(219, 29%, 14%);
+}
